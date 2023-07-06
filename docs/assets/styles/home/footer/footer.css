@@ -1,0 +1,48 @@
+.footer__container {
+    background-color: var(--background-footer);
+    font-family: var(--roboto);
+    padding-top: 1.5rem;
+    box-shadow:0 0 20px 10px rgba(239, 107, 46, 1);
+}
+
+.footer__information__company {
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 2.5%;
+    padding-left: 2.5%;
+    justify-content: center;
+    font-size: 1.125rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.footer__myinformation {
+    font-size: 1rem;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    padding-top: 0.5rem;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.footer__social__media {
+    display: flex;
+    padding: 0.5rem 1rem;
+    justify-content: center;
+}
+
+.footer__social__media__item {
+    padding: 0.5rem 0.5rem;
+}
+
+.footer__social__media-item {
+    color: black;
+    font-size: 1.5rem;
+    transition: 0.3s;
+}
+
+.footer__social__media-item:hover {
+    color: white;
+    transform: scale(1.2);
+}

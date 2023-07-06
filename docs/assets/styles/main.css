@@ -1,7 +1,10 @@
 :root {
-
+    --background-footer: #EF6B2E;
+    --raleway: 'Raleway', sanserif;
+    --roboto: 'Roboto', sanserif;
 }
 
 * {
+    font-family: var(--roboto);
 
 }
