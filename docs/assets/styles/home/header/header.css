@@ -38,6 +38,8 @@
 
 .searching_for_container:hover {
     transform: scale(1.0125);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 1rem;
 }
 
 .header_searching-for {
@@ -52,7 +54,6 @@
 }
 
 .header__button__searching_for {
-    height: 2.09rem;
     width: 3rem;
     font-size: 1.25rem;
     border-radius: 0 1rem 1rem 0;
@@ -99,13 +100,17 @@
     }
 
     .header_searching-for {
-        width: 70vw;
+        width: 65vw;
         font-size: 1rem;
     }
 
-    .header__button__searching_for {
-        height: 2.15rem;
-        width: 2rem;
+    .button_sign_in {
+        border: solid var(--white);
+    }
+
+    .button_sign_in:hover {
+        background-color: var(--white);
+        color: var(--orange);
     }
 }
 
@@ -117,5 +122,10 @@
 
     .header_searching-for {
         width: 20rem;
+    }
+
+    .button_sign_in:hover {
+        background-color: var(--white);
+        color: var(--orange);
     }
 }
