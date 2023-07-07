@@ -1,0 +1,121 @@
+.header_container {
+    background-color: var(--orange);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 2rem;
+    font-family: var(--roboto);
+}
+
+.header_container__company {
+    display: flex;
+    align-items: center;
+}
+
+.header__logo {
+    height: 3rem;
+    width: auto;
+    margin-right: 1rem;
+    border-radius: 0.5rem;
+}
+
+.header__logo__title {
+    font-size: 1.6rem;
+    padding-right: 0.25rem;
+    font-weight: bold;
+}
+
+.header__logo__title-differential {
+    color: #282828;
+}
+
+.searching_for_container {
+    transition:0.25s;
+    display: flex;
+    justify-content: center;
+}
+
+.searching_for_container:hover {
+    transform: scale(1.0125);
+}
+
+.header_searching-for {
+    width: 40ch;
+    height: 2rem;
+    font-size: 1.25rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 1rem 0 0 1rem;
+    border: none;
+    outline: none;
+}
+
+.header__button__searching_for {
+    height: 2.09rem;
+    width: 3rem;
+    font-size: 1.25rem;
+    border-radius: 0 1rem 1rem 0;
+    background-color: var(--white);
+    border: none;
+}
+
+.header__button__searching_for:hover {
+    background-color: #F5F5F5;
+    cursor: pointer;
+}
+
+.button_sign_in {
+    font-size: 1.25rem;
+    width: 10rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    transition: 0.3s;
+    border: none;
+    background-color: var(--orange);
+    color: white;
+}
+
+.button_sign_in:hover {
+    border: solid var(--white);
+    cursor: pointer;
+}
+
+/* Mobile Phones */
+@media screen and (max-width: 780px) {
+    .header_container {
+        justify-content: space-around;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+
+    .header__logo__title {
+        font-size: 1.25rem;
+    }
+
+    .searching_for_container {
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+
+    .header_searching-for {
+        width: 70vw;
+        font-size: 1rem;
+    }
+
+    .header__button__searching_for {
+        height: 2.15rem;
+        width: 2rem;
+    }
+}
+
+/* Tablets */
+@media screen and (min-width: 781px) and (max-width: 1020px) {
+    .header__logo__title {
+        display: none;
+    }
+
+    .header_searching-for {
+        width: 20rem;
+    }
+}

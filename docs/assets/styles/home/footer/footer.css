@@ -1,8 +1,17 @@
 .footer__container {
-    background-color: var(--background-footer);
+    background-color: var(--orange);
     font-family: var(--roboto);
     padding-top: 1.5rem;
     box-shadow:0 0 20px 10px rgba(239, 107, 46, 1);
+}
+
+.footer__line {
+    display: block;
+    height: 0.25vh;
+    background: var(--black);
+    margin-bottom: 0.75rem;
+    margin-right: 2%;
+    margin-left: 2%;
 }
 
 .footer__information__company {
@@ -21,6 +30,7 @@
     font-weight: 400;
     display: flex;
     justify-content: center;
+    text-align: center;
     padding-top: 0.5rem;
     padding-left: 5%;
     padding-right: 5%;
@@ -37,12 +47,12 @@
 }
 
 .footer__social__media-item {
-    color: black;
+    color: var(--black);
     font-size: 1.5rem;
     transition: 0.3s;
 }
 
 .footer__social__media-item:hover {
-    color: white;
+    color: var(--white);
     transform: scale(1.2);
 }

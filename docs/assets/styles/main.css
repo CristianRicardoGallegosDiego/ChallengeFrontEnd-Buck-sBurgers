@@ -1,5 +1,10 @@
 :root {
-    --background-footer: #EF6B2E;
+    --orange: #EF6B2E;
+    --orange-dark: #C84203;
+    --black: black;
+    --white: white;
+
+
     --raleway: 'Raleway', sanserif;
     --roboto: 'Roboto', sanserif;
 }
