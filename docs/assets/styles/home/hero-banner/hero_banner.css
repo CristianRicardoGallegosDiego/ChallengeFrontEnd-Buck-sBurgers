@@ -39,6 +39,7 @@
 .button_banner:hover {
     background: var(--orange-dark);
     transform: scale(1.0125);
+    cursor: pointer;
 }
 
 /* Mobile Phones */

@@ -38,8 +38,6 @@
 
 .searching_for_container:hover {
     transform: scale(1.0125);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    border-radius: 1rem;
 }
 
 .header_searching-for {
@@ -122,6 +120,10 @@
 
     .header_searching-for {
         width: 20rem;
+    }
+
+    .button_sign_in {
+        border: solid var(--white);
     }
 
     .button_sign_in:hover {

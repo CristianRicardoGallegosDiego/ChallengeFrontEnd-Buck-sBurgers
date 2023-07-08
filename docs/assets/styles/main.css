@@ -1,6 +1,10 @@
 :root {
     --orange: #EF6B2E;
     --orange-dark: #C84203;
+    --gray-one: #464646;
+    --green-one: #8DC63B;
+    --green-two: #639B12;
+    --yellow-one: #D7AB38;
     --black: black;
     --white: white;
 
@@ -12,4 +16,21 @@
 * {
     font-family: var(--roboto);
 
+}
+
+body::-webkit-scrollbar, .input_message::-webkit-scrollbar {
+    width: 1.5vh;
+}
+
+body::-webkit-scrollbar-track, .input_message::-webkit-scrollbar-track {
+    background: var(--yellow-one);
+}
+
+body::-webkit-scrollbar-thumb, .input_message::-webkit-scrollbar-thumb {
+    background: var(--orange);
+    border-radius: 2px;
+}
+
+body::-webkit-scrollbar-thumb:hover, .input_message::-webkit-scrollbar-thumb:hover {
+    background: var(--orange-dark);
 }
