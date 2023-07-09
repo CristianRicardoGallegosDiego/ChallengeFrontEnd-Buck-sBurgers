@@ -79,3 +79,50 @@
     background-color: var(--green-two);
     transform: scale(102%);
 }
+
+/* Mobile Phones */
+@media screen and (max-width: 780px) {
+    .contact_us_title {
+        font-size: 2rem;
+    }
+
+    .name_container {
+        width: 83vw;
+    }
+
+    .input_name {
+        width: 80vw;
+    }
+
+    .message_container {
+        width: 83vw;
+    }
+
+    .input_message {
+        width: auto;
+    }
+
+    .button_submit {
+        align-self: center;
+        width: 85vw;
+    }
+}
+
+/* Tablets */
+@media screen and (min-width: 781px) and (max-width: 1024px) {
+    .name_container {
+        width: 55vw;
+    }
+
+    .input_name {
+        width: 54vw;
+    }
+
+    .message_container {
+        width: 55vw;
+    }
+
+    .input_message {
+        width: 53.5vw;
+    }
+}

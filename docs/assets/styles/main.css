@@ -27,10 +27,10 @@ body::-webkit-scrollbar-track, .input_message::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb, .input_message::-webkit-scrollbar-thumb {
-    background: var(--orange);
+    background: var(--green-one);
     border-radius: 2px;
 }
 
 body::-webkit-scrollbar-thumb:hover, .input_message::-webkit-scrollbar-thumb:hover {
-    background: var(--orange-dark);
+    background: var(--green-two);
 }
