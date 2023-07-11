@@ -87,11 +87,11 @@
 }
 
 .see_product {
-    display: flex;
-    justify-content: end;
     font-weight: bold;
     color: var(--green-one);
     text-decoration: none;
+    display: inline;
+    float: right;
 }
 
 .see_product:hover {
@@ -124,7 +124,6 @@
 
     .see_product {
         padding-top: 1rem;
-
     }
 
     .footer_products {
