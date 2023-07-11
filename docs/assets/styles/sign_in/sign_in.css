@@ -1,5 +1,6 @@
 .sign_in_section {
-    height: 35rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -61,10 +62,6 @@
 
 /* Mobile Phones */
 @media screen and (max-width: 780px) {
-    .sign_in_section {
-        height: 60vh;
-    }
-
     .sign_in_form {
         width: 80vw;
         padding: 2rem 0.75rem;
