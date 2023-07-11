@@ -1,0 +1,94 @@
+.sign_in_section {
+    height: 35rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign_in_form {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--white-one);
+    padding: 2rem 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.1);
+    width: 28vw;
+}
+
+.sign_in_title {
+    color: var(--gray-one);
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.title_form_item {
+    padding-top: 0.5rem;
+    padding-bottom: 0.15rem;
+}
+
+.box_user_information {
+    height: 2rem;
+    font-size: 1.25rem;
+    border-radius: 0.25rem;
+    border: 1px solid var(--gray-two);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: var(--white-two);
+}
+
+.box_user_information::placeholder {
+    color: var(--gray-two);
+}
+
+.button_sign_in_form {
+    margin-top: 1rem;
+    transition: 0.3s;
+    border: none;
+    border-radius: 1rem;
+    background-color: var(--green-one);
+    color: var(--white);
+    height: 3rem;
+    font-size: 1.125rem;
+    font-weight: bold;
+}
+
+.button_sign_in_form:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+    background-color: var(--green-two);
+}
+
+/* Mobile Phones */
+@media screen and (max-width: 780px) {
+    .sign_in_section {
+        height: 60vh;
+    }
+
+    .sign_in_form {
+        width: 80vw;
+        padding: 2rem 0.75rem;
+        border-radius: 0.5rem;
+    }
+
+    .box_user_information {
+        font-size: 1.125rem;
+    }
+
+    .button_sign_in_form {
+        width: 60vw;
+        align-self: center;
+    }
+}
+
+/* Tablets */
+@media screen and (min-width: 781px) and (max-width: 1024px) {
+    .sign_in_form {
+        width: 50vw;
+    }
+
+    .button_sign_in_form {
+        width: 35vw;
+        align-self: center;
+    }
+}

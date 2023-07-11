@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sign In | Buck's Burgers</title>
+        <link rel="icon" href="assets/img/logo.jpg">
+
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="assets/styles/reset.css">
+        <link rel="stylesheet" href="assets/styles/main.css">
+        <link rel="stylesheet" href="assets/styles/home/body.css">
+
+        <link rel="stylesheet" href="assets/styles/home/header/header.css">
+        <link rel="stylesheet" href="assets/styles/sign_in/sign_in.css">
+        <link rel="stylesheet" href="assets/styles/home/contact/contact.css">
+        <link rel="stylesheet" href="assets/styles/home/contact/form.css">
+        <link rel="stylesheet" href="assets/styles/home/footer/footer.css">
+    </head>
+    <body class="background_home">
+    <header class="header_container new_header_container">
+        <div class="header_container__company">
+            <img class="header__logo" src="assets/img/logo.jpg" alt="Logo Buck's Burgers">
+            <h1 class="header__logo__title">Buck's </h1><h1 class="header__logo__title header__logo__title-differential">Burgers</h1>
+        </div>
+        <div class="searching_for_container">
+            <input class="header_searching-for" type="text" placeholder="Search">
+            <button class="header__button__searching_for">
+                <i class="fas fa-search"></i>
+            </button>
+        </div>
+    </header>
+    <main>
+        <section class="sign_in_section">
+            <form class="sign_in_form" action="/login" method="POST">
+                <h1 class="sign_in_title">Sign In</h1>
+                <label class="title_form_item" for="email">Email:</label>
+                <input class="box_user_information" type="email" id="email" name="email" required placeholder="Enter your email">
+                <label class="title_form_item" for="password">Password:</label>
+                <input class="box_user_information" type="password" id="password" name="password" required placeholder="Enter your password">
+                <input class="button_sign_in_form" type="submit" value="Sign In">
+            </form>
+        </section>
+        <section class="contact_container">
+            <div class="information_company_container">
+                <div class="header_container__company">
+                    <img class="logo_contact header__logo" src="assets/img/logo.jpg" alt="Logo Buck's Burgers">
+                    <h1 class="logo_title_contact logo_title_contact">Buck's </h1><h1 class="logo_title_contact header__logo__title-differential">Burgers</h1>
+                </div>
+                <ul class="titles_contact_container">
+                    <li class="title_contact_item"><a href="#">About Us</a> </li>
+                    <li class="title_contact_item"><a href="#">Privacy Policy</a></li>
+                    <li class="title_contact_item"><a href="#">Our Stores</a></li>
+                    <li class="title_contact_item"><a href="#">Work at Buck's Burgers</a></li>
+                    <li class="title_contact_item"><a href="#">Help</a></li>
+                    <li class="title_contact_item"><a href="#">Advertise Here</a></li>
+                </ul>
+            </div>
+            <form class="form_container">
+                <h2 class="contact_us_title">To contact us</h2>
+                <label class="name_container">
+                    <p class="name_title">Name:</p>
+                    <input class="input_name" name="name" placeholder="Enter your name" required type="text">
+                </label>
+                <label class="message_container">
+                    <p class="message_title">Message:</p>
+                    <textarea class="input_message" placeholder="Enter your message" required></textarea>
+                </label>
+                <input class="button_submit" type="submit" value="Submit Message">
+            </form>
+        </section>
+    </main>
+    <footer class="footer__container">
+        <div class="footer__line"></div>
+        <div class="footer__information__company">
+            <p>
+                Copyright © 2023 Buck's Burgers United States of America | All Rights Reserved |
+                ONE Oracle Next Education Alura Latam
+            </p>
+        </div>
+        <h3 class="footer__myinformation">Design, Built & Made with 💛 by Cristian Gallegos</h3>
+        <nav>
+            <ul class="footer__social__media">
+                <li class="footer__social__media__item">
+                    <a target="_blank" href="https://github.com/CristianRicardoGallegosDiego">
+                        <i class="fab fa-github footer__social__media-item"></i>
+                    </a>
+                </li>
+                <li class="footer__social__media__item">
+                    <a target="_blank" href="https://www.linkedin.com/in/cristian-ricardo-gallegos-diego-087308212">
+                        <i class="fab fa-linkedin footer__social__media-item"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+    </body>
+</html>
