@@ -1,3 +1,11 @@
+.without_sign_in_button_logo {
+    order: 2;
+}
+
+.without_sign_in_button_search {
+    order: 1;
+}
+
 .sign_in_section {
     padding-top: 5rem;
     padding-bottom: 5rem;
@@ -62,6 +70,14 @@
 
 /* Mobile Phones */
 @media screen and (max-width: 780px) {
+    .without_sign_in_button_logo {
+        order: 1;
+    }
+
+    .without_sign_in_button_search {
+        order: 2;
+    }
+
     .sign_in_form {
         width: 80vw;
         padding: 2rem 0.75rem;

@@ -24,12 +24,14 @@
     </head>
     <body class="background_home">
     <header class="header_container new_header_container">
-        <div class="header_container__company">
+        <div class="header_container__company without_sign_in_button_logo">
             <img class="header__logo" src="assets/img/logo.jpg" alt="Logo Buck's Burgers">
             <h1 class="header__logo__title">Buck's </h1><h1 class="header__logo__title header__logo__title-differential">Burgers</h1>
         </div>
-        <div class="searching_for_container">
-            <input class="header_searching-for" type="text" placeholder="Search">
+        <div class="searching_for_container without_sign_in_button_search">
+            <label>
+                <input class="header_searching-for" type="text" placeholder="Search">
+            </label>
             <button class="header__button__searching_for">
                 <i class="fas fa-search"></i>
             </button>
@@ -37,7 +39,7 @@
     </header>
     <main>
         <section class="sign_in_section">
-            <form class="sign_in_form" action="/login" method="POST">
+            <form class="sign_in_form" method="POST">
                 <h1 class="sign_in_title">Sign In</h1>
                 <label class="title_form_item" for="email">Email:</label>
                 <input class="box_user_information" type="email" id="email" name="email" required placeholder="Enter your email">
