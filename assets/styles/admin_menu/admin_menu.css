@@ -22,6 +22,7 @@
 .button_admin_edit {
     margin-left: 0.125rem;
     margin-right: 0.125rem;
+    width: 3ch;
     color: var(--white);
     font-size: 1rem;
     border: none;
@@ -125,6 +126,16 @@
     .all_products_container {
         flex-wrap: wrap;
     }
+
+    .button_admin_edit {
+        width: 3ch;
+    }
+
+    .buttons_admin_container {
+        top: 1vh;
+        left: calc(100% - (2 * 0.125rem) - 4rem);
+        font-size: 1.25rem;
+    }
 }
 
 @media screen and (min-width: 321px) and (max-width: 780px) {
@@ -137,6 +148,17 @@
         width: 40vw;
         margin: 1rem 0.2rem;
         padding: 2vw 2vw;
+    }
+
+    .button_admin_edit {
+        width: auto;
+        font-size: 1.5rem;
+    }
+
+    .buttons_admin_container {
+        top: 1vh;
+        left: calc(100% - (2 * 0.125rem) - 5rem);
+        font-size: 1.25rem;
     }
 }
 
