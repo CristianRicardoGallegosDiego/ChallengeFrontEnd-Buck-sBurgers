@@ -107,6 +107,10 @@
     color: white;
 }
 
+.title_similar_products {
+    margin-bottom: 1rem;
+}
+
 /* Mobile Phones */
 @media screen and (max-width: 320px) {
     .text_title_product {
